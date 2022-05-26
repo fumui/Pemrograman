@@ -1,10 +1,13 @@
 package modul3;
-import javax.swing.JOptionPane;
+
+import javax.swing.*;
 
 public class GetInputKeyboardJOptionPane {
-    public static void main(String[] args) {
-        String nama = JOptionPane.showInputDialog("Ketik nama anda: ");
-        String msg = "Hello "+nama+" \nLanjutkan belajar programming";
+    public static void main( String[] args ){
+        String nama = "";
+
+        nama = JOptionPane.showInputDialog("Ketik nama anda : ");
+        String msg = "Hello " + nama +"\nLanjutkan belajarnya pasti menjadi programmer Java !";
         JOptionPane.showMessageDialog(null, msg);
     }
 }

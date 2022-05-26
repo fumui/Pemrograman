@@ -15,4 +15,5 @@ public class TestXOR {
         val2 = false;
         System.out.println(val1 ^ val2);
     }
+
 }
